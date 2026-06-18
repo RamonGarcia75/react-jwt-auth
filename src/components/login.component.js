@@ -47,6 +47,14 @@ class Login extends Component {
   handleLogin(e) {
     e.preventDefault();
 
+    // ============================================================
+    // MENSAJES EN CONSOLA (PUNTO 2 DEL EXAMEN)
+    // ============================================================
+    console.error("ESTE LOGIN NO VA A FUNCIONAR YA QUE UTILIZA UNA BASE DA DATOS MYSQL");
+    console.info("ALUMNO: JUAN PEREZ SOSA PARCIAL 2");
+    console.log("Consulta la configuración del proyecto en https://www.youtube.com/watch?v=tNcWX9qPcCM");
+    // ============================================================
+
     this.setState({
       message: "",
       loading: true
